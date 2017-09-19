@@ -1,0 +1,49 @@
+<!DOCTYPE html> <!-- predloga za ostale spletne strani-->
+<html>
+<head>
+	<title>{% block title %}{% endblock title %}</title>
+	<meta charset="utf-8">
+	<!--GOOGLE FONT-->
+	<link href="https://fonts.googleapis.com/css?family=Jura|Lobster+Two" rel="stylesheet">
+	<!--CSS-->
+	<link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+
+</head>
+<body>
+	<!--GLAVA-->
+	<header>
+		<h1>Lottery numbers generator</h1>
+	</header>
+
+	<!-- STRANSKO POLJE NA LEVI-->
+	<sidebar>
+		<img id="lottery" src="../assets/images/lottery.png" height="200" width="200"/>
+		<h1>The lottery rules</h1>
+		<br>
+		<p>	
+			A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents.
+		</p>
+	</sidebar>
+
+	<!--CONTENT VSEBINA, KI SE JO DOLOČI V POSAMEZNI SPLETNI STRANI-->
+	{% block content %}
+
+	{% endblock content %}
+
+	<!--STRANSKO POLJE NA DESNI-->
+	<info>
+		<img id="lucky" src="../assets/images/lucky.png" height="150" width="150"/>
+		<h1>History of the lottery</h1>
+		<br>
+		<p>	
+			A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents.
+		</p>
+
+	</info>
+
+	<!--NOGA-->
+	<footer>
+		Copyright © 1995-2017 We-take-your-money d.o.o. All rights reserved.
+	</footer>
+</body>
+</html>

@@ -1,0 +1,18 @@
+{% extends "base.html" %} <!--Uvoz predloge iz dateteke base.html-->
+
+{% block title %} <!--zapolni te oklepaje...-->
+   The Lottery index page <!--...s to vrednostjo-->
+{% endblock title %}
+
+{% block content %} <!-- v predlogo dodaj naslednjo vsebino -->
+
+	<main>
+		<h1>Click on the button to generate the winning lottery numbers !</h1>
+		<img id="wheel" src="../assets/images/wheel.png" height="200" width="200"/>
+
+		<form action="/loto" method="get">
+			<input type="submit" value="Generate numbers!">
+		</form>
+	</main>
+
+{% endblock content %}

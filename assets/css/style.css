@@ -1,0 +1,101 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body {
+	position: relative;
+	font-family: 'Lobster Two', cursive;
+	font-family: 'Jura', sans-serif;
+}
+
+header {
+	font-family: 'Lobster Two', cursive;
+	padding: 3em;
+	text-align:center;
+	background-color: maroon;
+	color: white;
+}
+
+h1 {
+	font-family: 'Lobster Two', cursive;
+	text-align: center;
+}
+
+
+#wheel,#lottery, #lucky {
+	display: block;
+	margin: 2em auto;
+}
+
+
+input {
+	display: block;
+	margin: 2em auto;
+	background-color: maroon;
+	color:white;
+	padding: 1em;
+	border: none;
+	border-radius: 5px;
+	font-family: 'Lobster Two', cursive;
+	font-size: 20px;
+	transition: background-color 0.5s;
+	outline:none;
+}
+
+input:hover {
+	background-color: silver;
+}
+
+input:active {
+	position: relative;
+	top: 0.3em;
+}
+
+sidebar,info {
+	position: relative;
+	float:left;
+	width: 25%;
+	padding : 2em;
+	padding-top: 0;
+	text-align: justify;
+	height: 35em;
+}
+
+main {
+	padding: 2em;
+	float: left;
+	width: 50%;
+	background-color: #F5F5DC;
+	height: 35em;
+}
+
+info {
+	float: right;
+}
+
+footer {
+	clear:both;
+	padding: 2em;
+	background-color: maroon;
+	color: white;
+	text-align: right;
+}
+
+table {
+	margin:1em auto;
+	width: 80%;
+	border:solid maroon 1px;
+	border-collapse: collapse;
+	text-align:center;
+	
+}
+td {
+	padding: 1em;
+	font-family: 'Lobster Two', cursive;
+}
+tr:nth-child(odd) {
+	background-color: maroon;
+	color:white;
+}

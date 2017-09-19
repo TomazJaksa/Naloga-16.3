@@ -1,0 +1,15 @@
+{% extends "base.html" %} <!-- Uvoz predloge-->
+
+{%block title%}Generated values{%endblock title%} <!--določitev vrednosti "title"-->
+
+{%block content%} <!--določitev vrednosti vsebine-->
+	<main>
+		<h1>The lottery winning number combination is...</h1>
+
+		<table>
+		{% for number in list%}
+			<tr><td>{{number}}</td></tr>
+		{% endfor%}
+		</table>
+	</main>
+{%endblock content%}
